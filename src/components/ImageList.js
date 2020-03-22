@@ -8,10 +8,6 @@ export default class ImageList extends Component {
 			return <ImageCard image={image} key={image.id} />;
 		});
 
-		return (
-			<div className="ui container">
-				<div className="imagelist">{images}</div>
-			</div>
-		);
+		return <div className="image-list">{images}</div>;
 	}
 }

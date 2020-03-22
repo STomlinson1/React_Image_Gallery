@@ -23,8 +23,10 @@ export default class App extends Component {
 		return (
 			<div style={{ background: '#f4f4f4' }}>
 				<Header />
-				<SearchBar onSubmit={this.submitRequest} />
-				<ImageList images={this.state.images} />
+				<div className="ui container">
+					<SearchBar onSubmit={this.submitRequest} />
+					<ImageList images={this.state.images} />
+				</div>
 			</div>
 		);
 	}
