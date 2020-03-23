@@ -1,1 +1,23 @@
+.item {
+	width: 25%;
+}
 
+img {
+	width: 100%;
+}
+
+@media (max-width: 1000px) {
+	.item {
+		width: 33%;
+	}
+}
+@media (max-width: 750px) {
+	.item {
+		width: 50%;
+	}
+}
+@media (max-width: 500px) {
+	.item {
+		width: 100%;
+	}
+}

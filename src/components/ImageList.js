@@ -1,6 +1,7 @@
 import './ImageList.css';
 import React, { Component } from 'react';
 import ImageCard from './ImageCard';
+import Masonry from 'react-masonry-component';
 
 export default class ImageList extends Component {
 	render() {
@@ -8,6 +9,6 @@ export default class ImageList extends Component {
 			return <ImageCard image={image} key={image.id} />;
 		});
 
-		return <div className="image-list">{images}</div>;
+		return <Masonry className="masonry">{images}</Masonry>;
 	}
 }
