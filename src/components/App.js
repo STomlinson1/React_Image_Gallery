@@ -20,7 +20,7 @@ export default class App extends Component {
 
 	render() {
 		return (
-			<div style={{ background: '#f4f4f4' }}>
+			<div>
 				<Header />
 				<div className="ui container">
 					<SearchBar onSubmit={this.submitRequest} />
