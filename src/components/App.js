@@ -16,7 +16,6 @@ export default class App extends Component {
 		});
 
 		this.setState({ images: response.data.results });
-		console.log(this.state.images);
 	};
 
 	render() {

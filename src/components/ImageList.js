@@ -1,4 +1,3 @@
-import './ImageList.css';
 import React, { Component } from 'react';
 import ImageCard from './ImageCard';
 import Masonry from 'react-masonry-component';
